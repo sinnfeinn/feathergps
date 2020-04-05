@@ -1,6 +1,6 @@
 # feathergps
-A esp32 hosted leaflet.js realtime gps tracker using websockets:
-Sparkfun Things Plus, ublox SAM-M8Q, leaflet.js, ESPAsync Webserver, SPIFFS
+A esp32 hosted leaflet.js realtime gps tracker using websockets,
+Sparkfun Things Plus, ublox SAM-M8Q, leaflet.js, leaflet-raltime.js, ESPAsync Webserver and SPIFFS.
 
 ![Tracker](https://user-images.githubusercontent.com/936824/78511087-d6049380-774e-11ea-8e8b-2b6f3e1b356a.png)
 
