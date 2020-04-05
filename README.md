@@ -1,5 +1,5 @@
 # feathergps
-A esp32 hosted leaflet.js realtime gps tracker using:
+A esp32 hosted leaflet.js realtime gps tracker using websockets:
 Sparkfun Things Plus, ublox SAM-M8Q, leaflet.js, ESPAsync Webserver, SPIFFS
 
 ![Tracker](https://user-images.githubusercontent.com/936824/78511087-d6049380-774e-11ea-8e8b-2b6f3e1b356a.png)
@@ -10,10 +10,14 @@ Sparkfun Things Plus, ublox SAM-M8Q, leaflet.js, ESPAsync Webserver, SPIFFS
 - Qwiic Cable - 50mm (https://www.sparkfun.com/products/14426)
 
 ## Dependencies:
+Arduino:
 - https://github.com/me-no-dev/ESPAsyncWebServer
 - https://github.com/sparkfun/SparkFun_Ublox_Arduino_Library
 - https://arduinojson.org/
 - https://github.com/me-no-dev/arduino-esp32fs-plugin
+Web:
+- https://leafletjs.com/
+- https://github.com/perliedman/leaflet-realtime
 
 ## Setup:
 1. Connect ublox SAM-M8Q to Thing Plus via QWIIC
